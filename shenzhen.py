@@ -42,7 +42,7 @@ if __name__ == '__main__':
     urls = ['http://sz.xiaozhu.com/search-duanzufang-p{}-0/'.format(number) for number in range(1,3)] #爬取1-3页
     for single_url in urls:
         get_links(single_url)
-        time.sleep(2)  # 循环一个页面然后休闲2s
+        time.sleep(2)  # 循环一个页面然后休息2s
 
 
 
